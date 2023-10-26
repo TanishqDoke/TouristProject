@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Salary Slip</title>
+</head>
+<body>
+    <h1>Employee Salary Slip</h1>
+    <form id="salaryForm">
+        <label for="employeeName">Employee Name: </label>
+        <input type="text" id="employeeName" required><br><br>
+        
+        <label for="basicSalary">Basic Salary: </label>
+        <input type="number" id="basicSalary" required><br><br>
+
+        <button type="button" onclick="calculateSalary()">Calculate</button>
+    </form>
+
+    <h2>Salary Slip</h2>
+    <div id="salarySlip">
+        <!-- Salary slip details will be displayed here -->
+    </div>
+
+    <script>
+        function calculateSalary() {
+            const employeeName = document.getElementById("employeeName").value;
+            const basicSalary = parseFloat(document.getElementById("basicSalary").value);
+
+            // Calculate DA, HRA, PF, Tax, Gross Pay, Deduction, and Net Pay here
+            const da = basicSalary * 0.15;
+            const hra = basicSalary * 0.10;
+            const pf = basicSalary * 0.12;
+            const tax = basicSalary * 0.05;
+            const grossPay = basicSalary + da + hra;
+            const deduction = pf + tax;
+            const netPay = grossPay - deduction;
+
+            // Display the salary slip
+            const salarySlip = `
+                <p><strong>Employee Name:</strong> ${employeeName}</p>
+                <p><strong>Basic Salary:</strong> $${basicSalary}</p>
+                <p><strong>DA:</strong> $${da}</p>
+                <p><strong>HRA:</strong> $${hra}</p>
+                <p><strong>PF:</strong> $${pf}</p>
+                <p><strong>Tax:</strong> $${tax}</p>
+                <p><strong>Gross Pay:</strong> $${grossPay}</p>
+                <p><strong>Deduction:</strong> $${deduction}</p>
+                <p><strong>Net Pay:</strong> $${netPay}</p>
+            `;
+
+            document.getElementById("salarySlip").innerHTML = salarySlip;
+        }
+    </script>
+</body>
+</html>
