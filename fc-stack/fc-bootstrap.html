@@ -11,11 +11,12 @@
             font-family: 'Merriweather', serif;
         }
 
-        p{
+        .head p {
             margin:0px;
             padding:0px;
+            line-height: 1;
         }
-
+        
         ul{
             display: flex;
             flex-direction: row;
@@ -28,106 +29,266 @@
         a{
             color: black;
         }
+        .top-right-head li
+        {
+            padding-right: 10px;
+            padding-left: 10px;
+            border-right: 1px solid white;
+        }
+        .top-right-head a{
+            color: white;
+            text-decoration: none;
+        }
+        .top-right-head a:hover{
+            
+            text-decoration:underline;
+        }
+        .top-right-head
+        {
+            padding: 4px 0px;
+            float: right;
+        }
+        .middle-right-head
+        {
+            float: right;
+        } 
+        .middle-right-head a{
+            color: #0086b2;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
-       
+        .mid-nav a{
+                border-right: 2px solid white;
+                padding-right: 5px;
+                padding-left: 5px;
+                
+                color: white;
+        }
+
+        .iframe a{
+            font-size: 14px;
+        }
+        div.slide-up {
+    height: 200px;
+    overflow: hidden;
+    }
+
+    .scroller{
+            height: 0px;
+    }
+
+
+        
     </style>
 </head>
 <body>
 
 
-    <div class="container bg-light">
-
-
-        <div class="row">
-
-
-            <div class="col">
-                <img class="img-responsive" src="big-logo-1.png" alt="fc-logo" height="120px" width="120px">
-               
+    <div class="container bg-light cont">
+        <div class="head">
+            <div class="row">
+                <div class="col-sm-1">
+                    <img class="img-fluid pt-2" src="big-logo-1.png" alt="fc-logo" height="120px" width="120px">    
+                </div>
+                <div class="col-sm-6 pt-2">
+                    <p>Deccan Education Society's</p>
+                    <p class="h1 mb-0" style="font-weight:700; color: #0086b2;" >Fergusson College</p>
+                    <p class="h4 mb-0">(Autonomous)</p>
+                    <p>Affiliated to Savitribai Phule Pune University</p>
+                    <p>NAAC accredited “A+” Grade (3.31 CGPA) | AISHE Code : C - 41431</p>
+                    <p>UGC Special Heritage Status | UGC - College of Excellence (CE) | DBT - STAR Status</p>
+                    <p>#F. C. Road, Shivaji Nagar, Pune - 411004</p>
+                </div>
+                <div class="col-sm-5 pt-1">
+                    <ul id="ul" class="top-right-head mb-2">  
+                        <li><a href="#">Web OPAC</a></li> 
+                        <li><a href="#">Alumni</a></li>
+                        <li><a href="#">e-Magazine</a></li>
+                        <li><a href="#" >Sitemap</a></li>
+                    </ul>
+                    <ul class="bg-light middle-right-head">
+                        <li><a href="#" style="border-right: 1px solid black;">Student Login</a></li>
+                        <li><a href="#"> Faculty Login</a></li>
+                    </ul>
+                    <br><br><br><br>
+                    <div class=""> 
+                    <input type="text" placeholder="Keyword"><button style="background-color:#36c1ef;color: white;border-color: white;"><i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></i>Search</button>
+                </div>
+                </div>  
             </div>
-
-            <div class="col">\ <p>Deccan Education Society's</p>
-                <p class="h1" style="font-weight:700; color: #0086b2;" >Fergusson College</p>
-                <h4>(Autonomous)</h4>
-                <p>Affiliated to Savitribai Phule Pune University</p>
-                <p>NAAC accredited “A+” Grade (3.31 CGPA) | AISHE Code : C - 41431</p>
-                <p>UGC Special Heritage Status | UGC - College of Excellence (CE) | DBT - STAR Status</p>
-                <p>#F. C. Road, Shivaji Nagar, Pune - 411004</p></div>
-
-            <div class="col-6 sm-6" style="padding: 10px; color: white;">
-            <ul id="ul">  
-                <li>Web OPAC</li> |
-                <li>Alumni</li>|
-                <li>e-Magazine</li>|
-                <li>Sitemap</li>
-            </ul>
-
-            <ul class="bg-light">
-               <li><a href="#">Student Login | </a></li>
-               <li><a href="#"> Faculty Login</a></li>
-            </ul>
-
-            <input type="text" placeholder="Keyword"><button style="background-color:#36c1ef;color: white;"><i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg></i>Search</button>
-            </div>
-            
         </div>
 
 
-        <div class="" style="color: white;">
-            <ul>
-        
-                <li><a href="www.google.com">Home</a></li>|
-                <li><a href="www.google.com">AboutUs</a></li>|
-                <li><a href="www.google.com">Academics</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>|
-                <li><a href="www.google.com"> Junior College</a></li>
-            </ul>
+        <div class="mt-2 mid-nav">
+
+            <nav>
+            <ul class="p-0">    
+                <li><a href="www.google.com">Home</a></li>
+                <li><a href="www.google.com">AboutUs</a></li>
+                <li><a href="www.google.com">Academics</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+                <li><a href="www.google.com"> Junior</a></li>
+            </ul></nav>
         </div>
         
-        <div>
-            <marquee behavior="" direction="left" style="border: solid black 2px; color: #23527c;">
+
+        <div class="d-flex" >
+            <div class="" style="padding-right:0;">
+                <button style="font-size:14px;">News Update</button>
+            </div>
+
+
+            <div class="col-11" style="padding-left:0;">
+            <marquee class="border" behavior="scroll" scrollamount="30" direction="left" style="color: #23527c;">
                 
                 <img src="NEW-GIF.gif" alt="adsf" width="30" height="20">
                 
                 Post Graduate Diploma in Advanced Biotechnology Admissions October 2023....</marquee>
+            </div>
+    
+    </div>
 
+
+        <div class="row">
+            <div class="col-sm-9">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="carousel-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="carousel-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="carousel-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <section class="section-box">
+                    <div class="row iframe">
+                        <div class="col-4">
+                            <div class="bx-box">
+                                <h3>News & Events</h3>
+
+                                <div class="news-box col-3 bg-primary">
+                                    <h4>
+                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px"><p>Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                                    </h4>
+                                </div>
+                                <div class="news-box col-3 bg-primary">
+                                    <h4>
+                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
+                                    </h4>
+                                </div>
+                                <div class="news-box col-3 bg-primary">
+                                    <h4>
+                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
+                                    </h4>
+                                </div>
+                                <div class="news-box col-3 bg-primary">
+                                    <h4>
+                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
+                                    </h4>
+                                </div>
+                    
+                    
+                            </div>
+                        </div>
+
+
+                        <div class="col-4 slide-up">
+                            <h3>General Circulars
+                            </h3>
+                            <div class="bx-box">
+
+                                <div class="news-box col-3 bg-primary">
+                                    <a href="#"> </a>
+                                    
+                                </div>
+                                <div class="col-3 bg-primary">q</div>
+                                <div class="col-3 bg-primary">q</div>
+                                <div class="col-3 bg-primary">q</div>
+                    
+                    
+                            </div>
+                        </div>
+
+
+                        <div class="col-4 slide-up">
+                            <div class="bx-box">
+                            <h3>Examination Circulars</h3> 
+
+                                <div class="col-3 bg-primary">
+                                    
+                                </div>
+                                <div class="col-3 bg-primary">q</div>
+                                <div class="col-3 bg-primary">q</div>
+                                <div class="col-3 bg-primary">q</div>
+                    
+                    
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        
+            </div>
+
+
+            <div class="col-3 middle-right-head">
+                
+            <div class="d-flex flex-row m-1" style="background-color:lightgray; padding-bottom: 200px;">
+
+            <h4>Quick Links</h4> 
+
+
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+            <a href="#">Self Study Report NAAC Cycle 4</a>
+
+
+            </div>
+
+
+            </div>
         </div>
 
 
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-right: 500px;">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="carousel-1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="carousel-2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="carousel-3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        
 
-          <div style="height: 400px;">
 
-          </div>
+
+
+
+
+        <div style="height: 400px;">
+
+        </div>
 
 <footer class=" container-fluid" style="background-color: #0086b2;">
     <div class="row">
