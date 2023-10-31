@@ -59,11 +59,14 @@
         }
 
         .mid-nav a{
-                border-right: 2px solid white;
-                padding-right: 5px;
-                padding-left: 5px;
-                
+            
+                padding-right: 15px;                
                 color: white;
+                font-size: 13px;;
+                text-decoration: none;
+        }
+        .mid-nav{
+            margin-right:5px;
         }
 
         .iframe a{
@@ -78,8 +81,102 @@
             height: 0px;
     }
 
+    .foot{
+        color: white;
+    }
 
+    .foot a { color: white; text-decoration: none;  }
+
+    .foot a:hover{
+        text-decoration: underline;
+    }
+    
+    .mid-sec a{
+        font-size: 14px;
+    }
+
+    .sc h5{
+        border-bottom:solid #0086b2 ;
+        border-width: 2px;
+        padding-bottom: 25px;
+    }
+
+    .mid-sec h5{
+        font-size: 14px;
+    }
+
+    .mid-sec h3{
+        color: #0086b2;
+        font-size: 21px;
+        font-weight:500; ;
+        padding-top:10px ;
+        margin-bottom:10px ;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+
+    .sc a{
+        line-height:;
+        text-decoration: none;
+    }
+    .sc a:hover{
         
+        text-decoration:underline;
+    }
+
+    .p-gallery img{
+
+        height:125px;
+        width: 179px;
+    }
+        
+    .p-gallery div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .marquee-side ul{
+        color: black;
+        display: contents;
+        list-style-type:none;
+    }
+    .marquee-side li{
+        border-bottom:solid #0086b2;
+        border-width: 1px;
+        padding:6px 10px 6px 10px;
+        margin: 0px 10px 0px 10px;
+        font-size: 15px;
+        font-weight: 100;
+        text-decoration: none;
+        
+    }
+
+    .publication p{
+        border-bottom:solid #0086b2;
+        border-width: 1px;
+        padding-bottom: 5px;
+        text-decoration: none;
+
+    }
+
+    .navb{
+        display: flex;
+        justify-content: space-evenly
+
+    }
+
+    .navb li{
+    text-align: center;
+    border-right: 2px solid white;
+    }
+
+    .QL a{
+        text-decoration: none;
+    }
+
+    .sc p{
+        
+    }
     </style>
 </head>
 <body>
@@ -124,27 +221,28 @@
 
         <div class="mt-2 mid-nav">
 
-            <nav>
-            <ul class="p-0">    
-                <li><a href="www.google.com">Home</a></li>
-                <li><a href="www.google.com">AboutUs</a></li>
-                <li><a href="www.google.com">Academics</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-                <li><a href="www.google.com"> Junior</a></li>
-            </ul></nav>
+            <nav class="">
+            <ul class="p-0 navb">    
+                <li><a href="www.google.com">HOME</a></li>
+                <li><a href="www.google.com">ABOUT US</a></li>
+                <li><a href="www.google.com">ACADEMICS</a></li>
+                <li><a href="www.google.com">JUNIOR COLLEGE</a></li>
+                <li><a href="www.google.com">IQAC</a></li>
+                <li><a href="www.google.com">NIRF</a></li>
+                <li><a href="www.google.com">EXAMINATIONS</a></li>
+                <li><a href="www.google.com">RESEARCH</a></li>
+                <li><a href="www.google.com">FACILITIES</a></li>
+                <li><a href="www.google.com">STUDENT CORNER</a></li>
+                <li><a href="www.google.com">ADMISSION</a></li>
+                <li style="border-right: none;"><a href="www.google.com">LIBRARY</a></li>
+            </ul></nav> 
         </div>
         
 
+        
         <div class="d-flex" >
             <div class="" style="padding-right:0;">
-                <button style="font-size:14px;">News Update</button>
+                <button class="" style="font-size:14px; background-color: #0086b2;border: none;color: white;">News Update</button>
             </div>
 
 
@@ -159,7 +257,7 @@
     </div>
 
 
-        <div class="row">
+        <div class="row pt-3">
             <div class="col-sm-9">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
                     <div class="carousel-inner">
@@ -183,148 +281,338 @@
                     </button>
                 </div>
 
-                <section class="section-box">
-                    <div class="row iframe">
-                        <div class="col-4">
-                            <div class="bx-box">
-                                <h3>News & Events</h3>
-
-                                <div class="news-box col-3 bg-primary">
-                                    <h4>
-                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px"><p>Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
-                                    </h4>
-                                </div>
-                                <div class="news-box col-3 bg-primary">
-                                    <h4>
-                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
-                                    </h4>
-                                </div>
-                                <div class="news-box col-3 bg-primary">
-                                    <h4>
-                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
-                                    </h4>
-                                </div>
-                                <div class="news-box col-3 bg-primary">
-                                    <h4>
-                                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</a>
-                                    </h4>
-                                </div>
-                    
-                    
-                            </div>
-                        </div>
+            
+            
 
 
-                        <div class="col-4 slide-up">
-                            <h3>General Circulars
-                            </h3>
-                            <div class="bx-box">
-
-                                <div class="news-box col-3 bg-primary">
-                                    <a href="#"> </a>
-                                    
-                                </div>
-                                <div class="col-3 bg-primary">q</div>
-                                <div class="col-3 bg-primary">q</div>
-                                <div class="col-3 bg-primary">q</div>
-                    
-                    
-                            </div>
-                        </div>
 
 
-                        <div class="col-4 slide-up">
-                            <div class="bx-box">
-                            <h3>Examination Circulars</h3> 
+            <!-- News Event -->
+            
 
-                                <div class="col-3 bg-primary">
-                                    
-                                </div>
-                                <div class="col-3 bg-primary">q</div>
-                                <div class="col-3 bg-primary">q</div>
-                                <div class="col-3 bg-primary">q</div>
-                    
-                    
-                            </div>
+<section class="border border-3 ">
+    <div class="row mid-sec">
+
+        <div class="col-4 pt-3 mx-2" style=" overflow-y: auto;height: 400px; width: 300px;"> 
+            
+            <h3>News & Events</h3>
+
+        
+            <div>
+            <div class="sc">
+            <h4>
+                <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                </h4>
+                <h5>03/06/2023</h5>
+            </div>
+
+            <div class="sc">
+                <h4>
+                    <a href="#"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Women's Day Magazine</a>
+                    </h4>
+                    <h5>03/06/2023</h5>
+                </div>
+
+                <div class="sc">
+                    <h4>
+                        <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                        </h4>
+                        <h5>03/06/2023</h5>
+                    </div>
+
+                    <div class="sc">
+                        <h4>
+                            <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                            </h4>
+                            <h5>03/06/2023</h5>
                         </div>
                     </div>
-            </section>
-        
-            </div>
+
+                    <div style="height: 25px;width: 70px; background-color: #0086b2; font-size: 12px;text-align: center;" class="mb-2">
+                        <a href="www.google.com" style="color: white;">Read More</a>
+                    </div>
+                        
+        </div>       
 
 
-            <div class="col-3 middle-right-head">
-                
-            <div class="d-flex flex-row m-1" style="background-color:lightgray; padding-bottom: 200px;">
-
-            <h4>Quick Links</h4> 
 
 
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
-            <a href="#">Self Study Report NAAC Cycle 4</a>
+        <div class="col-4 pt-3 mx-3 " style=" overflow-y: auto;height: 400px; width: 300px; box-shadow: ;"> 
+            
+            <h3>General Circulars</h3>
 
 
-            </div>
+            <div>
+
+                <div class="sc">
+                    <h4>
+                        <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                        </h4>
+                        <h5>03/06/2023</h5>
+                    </div>
+
+                    <div class="sc">
+                        <h4>
+                            <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                            </h4>
+                            <h5>03/06/2023</h5>
+                        </div>
+
+                        <div class="sc">
+                            <h4>
+                                <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                                </h4>
+                                <h5>03/06/2023</h5>
+                            </div>
+
+                            <div class="sc">
+                                <h4>
+                                    <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                                    </h4>
+                                    <h5>03/06/2023</h5>
+                                </div>
+                    </div>
+                    <div style="height: 25px;width: 70px; background-color: #0086b2; font-size: 12px;text-align: center;" class="mb-2">
+                        <a href="www.google.com" style="color: white;">Read More</a>
+                    </div>
+                    
+        </div>
 
 
+
+
+        <div class="col-4 pt-3 mx-3 " style=" overflow-y:hidden;height: 400px; width: 300px;"> 
+            
+            <h3>Examination Circulars</h3>
+
+            <div class="sc">
+                <h4>
+                    <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                    </h4>
+                    <h5>03/06/2023</h5>
+                </div>
+                <div class="sc">
+                    <h4>
+                        <a href="#"><p style="line-height:1.4;"><img src="NEW-GIF.gif" alt="img" height="20px" width="30px">Career Katta (Career and Entrepreneurship Counseling, Skill Development, Internships, Placement,etc.)</p></a>
+                        </h4>
+                        <h5>03/06/2023</h5>
+                    </div>
+            
+        </div>
+
+    
+
+
+
+    </div>
+</section>
+
+
+
+
+<div class="row pt-3" style="background-color: white;">
+<h3 style="color: #0086b2; font-size: 21px;">
+Photo Gallery <div style="float: right; background-color: #0086b2;height: 23px;width: 60px;font-size: 16px;text-align: center;color: white;">More</div>
+</h3>
+
+<div>
+<div class="row pt-1 px-3 p-gallery" style="padding-bottom: 200px;" >
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+<div class="col border" style="padding-left: 25px;">
+    <span><img src="photo-gal-1.jpg" alt=""  class="border border-4"></span>
+</div>
+</div>
+</div>
+</div>
+    </div>
+
+
+
+
+    <div class="col">
+
+        <div style="background-color: #cecaca; border:solid lightgray;">
+            <h3  style="font-size: 18px; color: #0086b2; padding-left: 20px;">Quick Links</h3>
+            <div class="marquee-side">
+                <ul class="QL">
+                    <li><a href="#">Self Study Report NAAC Cycle 4</a></li>
+                    <li><a href="#">Gymkhana</a></li>
+                    <li><a href="#">Self Study Report NAAC Cycle 4</a></li>
+                    <li><a href="#">Gymkhana</a></li>
+                    <li><a href="#">Self Study Report NAAC Cycle 4</a></li>
+                    <li><a href="#">Gymkhana</a></li>
+                    <li><a href="#">Self Study Report NAAC Cycle 4</a></li>
+                    <li><a href="#">Gymkhana</a></li>
+                    <li><a href="#">Self Study Report NAAC Cycle 4</a></li>
+                    
+                    
+                </ul>
             </div>
         </div>
 
 
-        
+        <!-- Nep update -->
+        <div>
+        <h4 style="color: #0086b2;">NEP Upadates</h4>
 
-
-
-
-
-
-        <div style="height: 400px;">
-
+        <div class="row px-3 pb-3">
+        <div class="" style="height: 25px;width: 70px; background-color: #0086b2; font-size: 12px;text-align: center;" class="mb-2">
+            <a href="www.google.com" style="color: white;">Apr 2024</a>
+            <h2>06</h2>
         </div>
+
+        <div class="col pb-4">
+            <p style="color: #0086b2;">NEP Updates</p>
+        </div>
+    </div>
+
+    <div class="" style="height: 25px;width: 70px; background-color: #0086b2; font-size: 12px;text-align: center;float: right;" class="mb-2">
+        <a href="www.google.com" style="color: white;">Read More</a>
+    
+    </div>
+        
+        </div>
+
+
+<div>
+    <h4 style="color:#0086b2;">Publications</h4>
+    <div class="mx-2 px-3 publication" style="background-color: #cecaca; border:solid lightgray;" >
+
+        <a href="#" style="text-decoration: none;"><p>Quiver August 2017</p></a>
+        <a href="#" style="text-decoration: none;"><p>SPEED Research Journal</p></a>
+
+    </div>
+    <div class="pt-2">
+    <div class="" style="height: 25px;width: 70px; background-color: #0086b2; font-size: 12px;text-align: center;float: right;padding-top: 5px;" class="mb-2">
+        <a href="www.google.com" style="color: white;">Read More</a>
+</div>
+</div>
+
+
+    </div>
+
+<div>
+    <h3 style="padding-top: 8px;color: #0086b2;">College Tour</h3>
+
+    <div>
+        <video src="big_buck_bunny_720p_2mb.mp4" width="290" height="240" controls>
+            
+        </video>
+    </div>
+</div>
+
+<div>
+    <h3 style="padding-top: 8px;color: #0086b2;">Library</h3>
+
+    <div>
+        <video src="big_buck_bunny_720p_2mb.mp4" width="290" height="240" controls>
+            
+        </video>
+    </div>
+</div>
+
+<div>
+    <h3 style="padding-top: 8px;color: #0086b2;">Video Gallery</h3>
+    <div>
+        <video src="https://www.youtube.com/watch?v=NxRIZmc1j24&embeds_referring_euri=https%3A%2F%2Fwww.fergusson.edu%2F&source_ve_path=MzY4NDIsMjg2NjY&feature=emb_logo" width="290" height="240" controls>
+            
+        </video>
+    </div>
+</div>
+
+
+    </div>
+
+
+<!-- Footer section -->
 
 <footer class=" container-fluid" style="background-color: #0086b2;">
     <div class="row">
 
+        <div class="col-8">
 
-        <div class="col" style="margin-left: 30px;padding-top: 30px; " >
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
+            <div class="row">
+        <div class="col foot"  style="padding-top: 30px;" >
+            <ul class="ul d-flex" style="flex-direction:column; padding-left:">
+            <li><a href="#">Home</a><br></li>
+            <li><a href="#">About Us</a><br></li>
+            <li><a href="#">IQAC</a><br></li>
+            <li><a href="#">Academics</a><br></li>
+            <li><a href="#">Examinations</a><br><br></li>
+        </ul>
+            <img src="footer img.png" alt="">
         </div>
 
-        <div class="col" style="margin-left: 30px;padding-top: 30px; padding-bottom: 150px;" >
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
+        <div class="col foot" style="padding-top: 30px; padding-bottom: 150px;" >
+            <ul class="ul d-flex" style="flex-direction:column;">
+            <li><a href="#">College</a><br></li>
+            <li><a href="#">Publications</a><br></li>
+            <li><a href="#">UGC - CPE</a><br></li>
+            <li><a href="#">Photo Gallery</a><br></li></ul>
         </div>
 
-        <div class="col" style="margin-left: 30px;padding-top: 30px; " >
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-        </div>
-
-        <div class="col" style="margin-left: 30px;padding-top: 30px; " >
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-            <a href="#">Home</a><br>
-        </div>
-
-        <div class="col-5" style="margin-left: 30px;padding-top: 30px; " >
+        <div class="col" style="padding-top: 30px;" >
+            <ul class="ul foot d-flex" style="flex-direction:column;">
+                <li><a href="#">DBT Star College</a><br></li>
+                <li><a href="#">Scheme</a><br></li>
+                <li><a href="#">Junior College</a><br></li>
+                <li><a href="#">Senior College</a><br></li>
+                <li><a href="#">Alumni</a><br></li></li>
+            </ul>
             
         </div>
+
+        <div class="col-4 foot" style="padding-top: 30px; line-height: 1;" >
+            <h4>Contact Us</h4>
+            <p>Fergusson College, F.C. Road, Pune 411004</p>
+            <h4>Phone Number</h4>
+            <p>020-67656000</p>
+            <h4>E-mail Id</h4>
+            <p>principal@fergusson.edu</p>
+        </div>
+    </div>
+</div>
+
+
+
+        <div class="col px-0 " style="padding-top:30px;" >
+            <img src="Screenshot 2023-10-29 125505.png" alt="map" height="260px" width="400px">
+            
+        </div>
+
+
 
     </div>
 </footer>
